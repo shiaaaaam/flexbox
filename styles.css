@@ -1,0 +1,97 @@
+* {
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: thin solid lightgray;
+    height: 50px;
+
+}
+
+.logo {
+    text-align: center;
+    padding-left: 40px;
+}
+
+.menue {
+    display: flex;
+    
+}
+
+.menu-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.body {
+
+    padding-top: 10px;
+    height: 700px;
+    display: flex;
+
+}
+
+.sidebar {
+    background-color: white;
+    border: thin solid lightgray;
+    width: 30%;
+    margin-right: 10px;
+    padding: 10px;    
+
+}
+
+.main {
+    background-color: white;
+    border: thin solid lightgray;
+    width: 70%;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+p {
+    font-weight: 100;
+}
+
+.readmore {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.date {
+    padding: 0;
+    margin: 0;
+    line-height: 1px;
+    font-size: 12px;
+    text-decoration: lightgray;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-view {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    border: thin solid lightgray;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.card img {
+    width: 190px;
+}

@@ -3,6 +3,13 @@
 
 }
 
+.container {
+    width: 1000px;
+    margin: auto;
+
+
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
